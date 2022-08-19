@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;200;300;400;500;600;700;800&display=swap');
+.console {
+
+    font-family: 'Fira Mono';
+    width: 100%;
+  
+    box-sizing: border-box;
+    margin: auto;
+      margin-left: auto;
+    margin-left: 120;
+  }
+  input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    caret-color: white;
+    color:white;
+    line-height: 2rem;
+    font-weight: 100;
+    font-family: 'Anek Odia', sans-serif;
+    margin: 0px;
+    font-size: 21px;
+  
+
+  }
+  input:focus {
+pointer-events: visible;
+
+  
+
+  }
+  .console .consolebody {
+    box-sizing: border-box;
+    padding: 20px;
+    height: 400px;
+    overflow: auto;
+    background: linear-gradient(to right, #fff0 , #f702022e);
+      background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    border: 0px;
+    font-family: 'Anek Odia', sans-serif;
+    padding-left: 0;
+    border-top: 1px solid #363636;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.36) 0px 1px 1px 0px inset, rgba(122, 0, 0, 0.31) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+    font-weight: 548;
+    margin-top: 30px;
+  }
+  .console .consolebody p {
+    font-size: 21px;
+    line-height: 2rem;
+    font-weight: 100;
+  }.consolebody p {
+    line-height: 1.5rem;
+    margin: 0px;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    input {
+        font-size: 15px;    
+
+  }
+  .console .consolebody p {
+    font-size: 15px;
+    line-height: 1rem;
+    font-weight: 100;
+  }.consolebody p {
+    line-height: 1rem;
+    margin-top: 10px;
+  }
+
+}
