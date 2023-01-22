@@ -6,7 +6,7 @@ const Console =()=> {
     const [cmdprelist, updatecmdlist] = useState(["Hello Everyone,Iam Srivathsan G","I Love Making Websites from Scrach!","Type, help for cmds"]);
     const addcmditem = (e) => {
     //   updatecmdlist( cmdlist => [...cmdlist, e]);
-        updatecmdlist( cmdlst =>[...cmdlist, ">"+e.target.value])
+        updatecmdlist( cmdlist =>[...cmdlist, ">"+e.target.value])
        
        switch (e.target.value) {
           case "skill":Skills();break;
