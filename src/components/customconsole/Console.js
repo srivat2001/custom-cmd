@@ -8,7 +8,7 @@ const Console =()=> {
     //   updatecmdlist( cmdlist => [...cmdlist, e]);
        switch (e.target.value) {
           case "skill":Skills();break;
-          case "help":updatecmdlist(["type 'skill' for getting my skills","type 'cls' to clear screen"]);break;
+          case "help":updatecmdlist( cmdlist => [...cmdlist, "type 'skill' for getting my skills","type 'cls' to clear screen"]);break;
           case "cls":updatecmdlist(["Hello Everyone,Iam Srivathsan G","I Love Making Websites from Scrach!","Type, help for cmds"]);break;
           default:updatecmdlist( cmdlist => [...cmdlist, `${e.target.value} is not recognized as an internal or external command`]);
       }
